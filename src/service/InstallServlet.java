@@ -56,7 +56,7 @@ public class InstallServlet extends HttpServlet {
 			//String inputStr = request.getParameter(Key.INPUT);
 			JSONObject inputJson = new JSONObject();
 			inputJson.put(Key.NAME, "test");
-			inputJson.put(Key.USERNAME, "test");
+			inputJson.put(Key.EMAIL, "test");
 			inputJson.put(Key.PASSWORD, "test");
 			
 			System.out.println(inputJson.toJSONString());

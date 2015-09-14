@@ -22,6 +22,14 @@
 		<url-pattern>/LoginAdminServlet</url-pattern>
 	</servlet-mapping>
 	<servlet>
+		<servlet-name>CreateAdminServlet</servlet-name>
+		<servlet-class>service.CreateAdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateAdminServlet</servlet-name>
+		<url-pattern>/CreateAdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
 		<servlet-name>RegisterParentServlet</servlet-name>
 		<servlet-class>service.RegisterParentServlet</servlet-class>
 	</servlet>
@@ -29,15 +37,6 @@
 		<servlet-name>RegisterParentServlet</servlet-name>
 		<url-pattern>/RegisterParentServlet</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<servlet-name>RegisterStudentServlet</servlet-name>
-		<servlet-class>service.RegisterStudentServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>RegisterStudentServlet</servlet-name>
-		<url-pattern>/RegisterStudentServlet</url-pattern>
-	</servlet-mapping>
-
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>

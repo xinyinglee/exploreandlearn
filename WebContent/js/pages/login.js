@@ -1,9 +1,7 @@
 function login() {
 	// console.log("enter");
 	var email = $("#email").val();
-	console.log(email);
 	var password = $("#password").val();
-	console.log(password);
 	var input = {};
 	input.email = email;
 	input.password = password;
@@ -28,7 +26,6 @@ function login() {
 				window.location = "adminMain.jsp";
 			} else {
 				$("#message").html("Invalid Email/Password");
-				console.log(message);
 			}
 		}
 	});
